@@ -11,7 +11,6 @@ struct Memory {
   prog_ptr: usize
 }
 
-// add a lexer and parser but find a way to make it work like this too
 fn main() {
 
     let args: Vec<String> = env::args().collect();
